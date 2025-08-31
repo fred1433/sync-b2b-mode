@@ -11,7 +11,7 @@ const formSchema = z.object({
   platforms: z.array(z.string()).min(1, "Sélectionnez au moins une plateforme"),
   objectives: z.array(z.string()).min(1, "Sélectionnez au moins un objectif"),
   catalogSize: z.string().min(1, "Sélectionnez la taille de votre catalogue"),
-  warehouses: z.coerce.number().min(1),
+  warehouses: z.number().min(1),
   volumeB2B: z.string().min(1, "Sélectionnez votre volume de commandes"),
   hasERP: z.boolean(),
   hasCSV: z.boolean(),
@@ -213,8 +213,9 @@ export function QualificationForm() {
               <input
                 type="number"
                 id="warehouses"
-                {...register("warehouses")}
+                {...register("warehouses", { valueAsNumber: true })}
                 min="1"
+                defaultValue={1}
                 className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-500 focus:ring-blue-500 sm:text-sm"
               />
             </div>
