@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const plans = [
   {
     name: "Starter",
-    price: "299€",
+    price: "99€",
     period: "/mois",
     description: "Pour démarrer avec 1-2 plateformes",
     features: [
@@ -24,7 +24,7 @@ const plans = [
   },
   {
     name: "Pro",
-    price: "599€",
+    price: "249€",
     period: "/mois",
     popular: true,
     description: "Pour les grossistes en croissance",
@@ -127,7 +127,7 @@ export default function PricingPage() {
             Frais d'onboarding
           </h3>
           <p className="mt-4 text-sm leading-6 text-gray-600">
-            Un frais unique de mise en place de <span className="font-semibold">499€</span> par connecteur inclut :
+            Un frais unique de mise en place de <span className="font-semibold">199€</span> par connecteur inclut :
           </p>
           <ul className="mt-4 space-y-2 text-sm text-gray-600">
             <li>• Configuration initiale et tests</li>

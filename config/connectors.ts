@@ -71,23 +71,23 @@ export const connectors: Connector[] = [
   {
     id: "amazon",
     name: "Amazon",
-    status: "roadmap",
+    status: "stable",
     features: {
-      products: "roadmap",
-      inventory: "roadmap",
-      orders: "roadmap",
-      pricing: "roadmap",
+      products: "stable",
+      inventory: "stable",
+      orders: "stable",
+      pricing: "stable",
     },
   },
   {
     id: "zalando",
     name: "Zalando",
-    status: "roadmap",
+    status: "stable",
     features: {
-      products: "roadmap",
-      inventory: "roadmap",
-      orders: "roadmap",
-      pricing: "roadmap",
+      products: "stable",
+      inventory: "stable",
+      orders: "stable",
+      pricing: "stable",
     },
   },
 ];
