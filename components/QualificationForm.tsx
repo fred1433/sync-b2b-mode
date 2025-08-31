@@ -32,7 +32,6 @@ export function QualificationForm() {
     register,
     handleSubmit,
     formState: { errors },
-    watch,
   } = useForm<FormData>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -41,6 +40,7 @@ export function QualificationForm() {
       hasERP: false,
       hasCSV: false,
       consent: false,
+      warehouses: 1,
     },
   });
 
