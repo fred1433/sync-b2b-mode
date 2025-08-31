@@ -78,8 +78,17 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* Google Analytics 4 - REMPLACE G-XXXXXXXXXX PAR TON ID */}
-        {/* Pour obtenir ton ID : analytics.google.com > Admin > Flux de données > Web */}
+        {/* 
+          GOOGLE ANALYTICS 4 - CONFIGURATION REQUISE
+          
+          1. Va sur https://analytics.google.com
+          2. Clique sur "Admin" (roue dentée en bas à gauche)
+          3. Dans "Propriété", clique sur "Flux de données" > "Web"
+          4. Copie ton ID de mesure (format: G-ABC123XYZ9)
+          5. Remplace G-XXXXXXXXXX ci-dessous par ton ID
+          
+          IMPORTANT: Remplace G-XXXXXXXXXX dans les DEUX endroits ci-dessous
+        */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
           strategy="afterInteractive"
@@ -122,7 +131,7 @@ export default function RootLayout({
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
-                <span className="text-xl font-bold text-gray-900">SyncMode</span>
+                <span className="text-xl font-bold text-gray-900">Sync Mode</span>
               </div>
               <div className="hidden md:flex items-center space-x-8">
                 <a href="#demo" className="text-sm font-medium text-gray-700 hover:text-gray-900">
@@ -151,7 +160,7 @@ export default function RootLayout({
           <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
-                <h3 className="text-lg font-semibold mb-4">SyncMode</h3>
+                <h3 className="text-lg font-semibold mb-4">Sync Mode</h3>
                 <p className="text-sm text-gray-400">
                   Hub de synchronisation B2B pour la mode française
                 </p>

@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "SyncMode",
+  name: "Sync Mode",
   title: "Synchroniser stocks, prix et commandes - PFS, MicroStore, Faire, Ankorstore & Shopify",
   description: "Synchronisation automatique des stocks, prix et commandes entre vos plateformes B2B mode. Évitez la survente avec notre hub de synchronisation temps réel.",
   url: "https://sync-mode.fr",
@@ -27,7 +27,7 @@ export const siteConfig = {
 
 export const pageMetadata = {
   home: {
-    title: "Synchronisez PFS, MicroStore, Faire, Ankorstore & Shopify | SyncMode",
+    title: "Synchronisez PFS, MicroStore, Faire, Ankorstore & Shopify | Sync Mode",
     description: "Hub de synchronisation B2B pour la mode. Stocks temps réel, zéro survente, variantes & packs, prix par canal.",
   },
   shopifyFaire: {
@@ -51,11 +51,11 @@ export const pageMetadata = {
     description: "Connectez Paris Fashion Shops et MicroStore. Solution pour grossistes mode Aubervilliers et Sentier.",
   },
   pricing: {
-    title: "Tarifs | SyncMode - Hub synchronisation B2B mode",
+    title: "Tarifs | Sync Mode - Hub synchronisation B2B mode",
     description: "Abonnement flexible par connecteur. Onboarding personnalisé, mapping grilles tailles et prepacks inclus.",
   },
   security: {
-    title: "Sécurité & RGPD | SyncMode - Conformité CNIL",
+    title: "Sécurité & RGPD | Sync Mode - Conformité CNIL",
     description: "Protection des données, conformité RGPD et CNIL. Solution indépendante non affiliée aux marques.",
   },
 };

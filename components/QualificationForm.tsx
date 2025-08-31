@@ -133,7 +133,7 @@ export function QualificationForm() {
                 Quelles plateformes utilisez-vous ? *
               </label>
               <div className="mt-2 space-y-2">
-                {["shopify", "faire", "ankorstore", "pfs", "microstore", "efashion"].map((platform) => (
+                {["shopify", "faire", "ankorstore", "pfs", "microstore", "efashion", "amazon", "zalando"].map((platform) => (
                   <label key={platform} className="flex items-center">
                     <input
                       type="checkbox"
@@ -161,6 +161,7 @@ export function QualificationForm() {
               </label>
               <div className="mt-2 space-y-2">
                 {[
+                  { value: "stocks", label: "Synchroniser les stocks" },
                   { value: "survente", label: "Éviter la survente" },
                   { value: "centraliser", label: "Centraliser les commandes" },
                   { value: "prix", label: "Prix différenciés par canal" },

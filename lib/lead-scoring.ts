@@ -39,6 +39,18 @@ export function calculateLeadScore(data: LeadData): {
     reasons.push("Catalogue large (>1000 SKUs)");
   }
 
+  // Objectif synchroniser stocks = +2 points (priorité absolue)
+  if (data.objectives.includes("stocks")) {
+    score += 2;
+    reasons.push("Synchronisation stocks prioritaire");
+  }
+
+  // Objectif éviter survente = +2 points
+  if (data.objectives.includes("survente")) {
+    score += 2;
+    reasons.push("Éviter survente prioritaire");
+  }
+
   // Mention prepacks/MOQ dans objectives = +2 points
   const hasPrepackObjective = data.objectives.some(obj => 
     obj.includes("prepack") || obj.includes("moq")
