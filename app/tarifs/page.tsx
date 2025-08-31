@@ -10,48 +10,38 @@ export const metadata: Metadata = {
 
 const plans = [
   {
-    name: "Starter",
-    price: "99€",
-    period: "/mois",
-    description: "Pour démarrer avec 1-2 plateformes",
-    features: [
-      "2 connecteurs maximum",
-      "Jusqu'à 500 SKUs",
-      "Synchronisation toutes les 30 minutes",
-      "Support par email",
-      "Onboarding assisté",
-    ],
-  },
-  {
-    name: "Pro",
-    price: "249€",
+    name: "Tout Inclus",
+    price: "69€",
     period: "/mois",
     popular: true,
-    description: "Pour les grossistes en croissance",
+    description: "Accès complet à toutes les plateformes",
     features: [
-      "4 connecteurs maximum",
-      "Jusqu'à 2,000 SKUs",
-      "Synchronisation toutes les 15 minutes",
-      "Support prioritaire",
-      "Onboarding personnalisé",
+      "✅ TOUTES les plateformes incluses",
+      "Shopify, Faire, Ankorstore, PFS, MicroStore",
+      "Amazon, Zalando, eFashion",
+      "Jusqu'à 5,000 SKUs",
+      "Synchronisation toutes les 10 minutes",
+      "Support prioritaire par email",
       "Mapping grilles de tailles",
-      "Gestion des prepacks",
+      "Gestion des prepacks/MOQ",
+      "Multi-entrepôts",
     ],
   },
   {
     name: "Enterprise",
-    price: "Sur mesure",
-    period: "",
-    description: "Pour les gros volumes",
+    price: "299€",
+    period: "/mois",
+    description: "Pour les très gros volumes",
     features: [
-      "Connecteurs illimités",
-      "SKUs illimités",
-      "Synchronisation temps réel",
-      "Support dédié 24/7",
-      "Onboarding sur site",
-      "API dédiée",
-      "Intégration ERP/WMS",
-      "SLA garanti",
+      "Tout du plan Tout Inclus +",
+      "SKUs illimités (10,000+)",
+      "Synchronisation temps réel (1 min)",
+      "Support téléphonique dédié",
+      "Compte manager personnel",
+      "API personnalisée",
+      "Intégration ERP/WMS sur mesure",
+      "Formation équipe sur site",
+      "SLA 99.9% garanti",
     ],
   },
 ];
@@ -62,14 +52,14 @@ export default function PricingPage() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl text-center">
           <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            Tarifs simples et transparents
+            Un seul prix, toutes les plateformes
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            Choisissez le plan adapté à votre volume. Sans engagement, annulation à tout moment.
+            69€/mois pour synchroniser TOUTES vos plateformes. Sans engagement, essai 14 jours gratuit.
           </p>
         </div>
 
-        <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 gap-8 lg:max-w-none lg:grid-cols-2">
           {plans.map((plan) => (
             <div
               key={plan.name}
@@ -127,7 +117,7 @@ export default function PricingPage() {
             Frais d'onboarding
           </h3>
           <p className="mt-4 text-sm leading-6 text-gray-600">
-            Un frais unique de mise en place de <span className="font-semibold">199€</span> par connecteur inclut :
+            Frais unique de mise en place : <span className="font-semibold">99€ au total</span> (au lieu de 199€/connecteur) incluant :
           </p>
           <ul className="mt-4 space-y-2 text-sm text-gray-600">
             <li>• Configuration initiale et tests</li>
