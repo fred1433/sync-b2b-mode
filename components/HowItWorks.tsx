@@ -3,20 +3,20 @@ import { Link2, Map, RefreshCw } from "lucide-react";
 const steps = [
   {
     id: "01",
-    name: "Connectez",
-    description: "Vos comptes Shopify, Faire, Ankorstore, PFS, MicroStore",
+    name: "Connectez vos plateformes",
+    description: "Reliez Shopify, Faire, Ankorstore, PFS et MicroStore pour synchroniser vos données",
     icon: Link2,
   },
   {
     id: "02",
-    name: "Mappez",
-    description: "Votre catalogue (grilles de tailles, packs, entrepôts, prix par canal)",
+    name: "Configurez la synchronisation",
+    description: "Définissez comment synchroniser stocks, prix, variantes et règles de synchronisation par canal",
     icon: Map,
   },
   {
     id: "03",
-    name: "Synchronisez",
-    description: "Produits, stocks, prix et commandes — sans survente",
+    name: "Synchronisation automatique",
+    description: "Vos stocks, prix et commandes se synchronisent en temps réel. Zéro survente, zéro erreur",
     icon: RefreshCw,
   },
 ];

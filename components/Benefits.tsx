@@ -2,18 +2,18 @@ import { Shield, Package, Zap } from "lucide-react";
 
 const benefits = [
   {
-    name: "Zéro survente",
-    description: "Inventaires mis à jour en temps réel sur tous vos canaux",
+    name: "Synchronisation des stocks en temps réel",
+    description: "Évitez la survente avec une synchronisation automatique des stocks entre toutes vos plateformes B2B",
     icon: Shield,
   },
   {
-    name: "Pensé pour la mode",
-    description: "Tailles/couleurs, prepacks, MOQ, remises par quantité",
+    name: "Synchronisation des prix par canal",
+    description: "Synchronisez vos prix B2B différenciés : tarifs grossistes, remises volume, prix par plateforme",
     icon: Package,
   },
   {
-    name: "Opérations fluides",
-    description: "Commandes wholesale centralisées (ERP/WMS prêt)",
+    name: "Synchronisation des commandes centralisée",
+    description: "Toutes vos commandes B2B synchronisées en un seul endroit. Compatible ERP/WMS pour automatiser vos opérations",
     icon: Zap,
   },
 ];

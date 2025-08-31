@@ -16,9 +16,11 @@ export function Hero() {
           </h1>
           
           <p className="mt-6 text-lg leading-8 text-gray-600">
-            <strong>PFS, MicroStore (MC), Faire, Ankorstore & Shopify alignés :</strong>
+            <strong>Synchronisez automatiquement vos stocks, prix et commandes</strong>
             <br />
-            stocks, variantes, prix & commandes.
+            entre PFS, MicroStore (MC), Faire, Ankorstore & Shopify.
+            <br />
+            <span className="text-base">Évitez la survente • Synchronisation temps réel • Centralisation des commandes</span>
           </p>
 
           <div className="mt-10 flex items-center justify-center gap-x-6">
