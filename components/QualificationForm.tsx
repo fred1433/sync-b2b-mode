@@ -11,7 +11,7 @@ const formSchema = z.object({
   platforms: z.array(z.string()).min(1, "Sélectionnez au moins une plateforme"),
   objectives: z.array(z.string()).min(1, "Sélectionnez au moins un objectif"),
   catalogSize: z.string().min(1, "Sélectionnez la taille de votre catalogue"),
-  warehouses: z.string().transform(Number),
+  warehouses: z.coerce.number().min(1),
   volumeB2B: z.string().min(1, "Sélectionnez votre volume de commandes"),
   hasERP: z.boolean(),
   hasCSV: z.boolean(),
@@ -49,7 +49,7 @@ export function QualificationForm() {
     
     const leadData: LeadData = {
       ...data,
-      warehouses: Number(data.warehouses),
+      warehouses: data.warehouses,
     };
     
     const score = calculateLeadScore(leadData);
