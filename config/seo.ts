@@ -1,0 +1,57 @@
+export const siteConfig = {
+  name: "SyncMode",
+  title: "Synchronisez PFS, MicroStore, Faire, Ankorstore & Shopify",
+  description: "Le hub de synchronisation B2B pour la mode. Stocks en temps réel, variantes & packs, prix B2B par canal, commandes centralisées.",
+  url: "https://sync-mode.fr",
+  ogImage: "https://sync-mode.fr/og.png",
+  links: {
+    calendly: "https://calendar.app.google/TYAMqj2b8WFD6Mzx9",
+  },
+  keywords: [
+    "synchronisation B2B mode",
+    "shopify faire intégration",
+    "ankorstore shopify",
+    "paris fashion shops",
+    "microstore grossiste",
+    "PFS synchronisation",
+    "survente stock mode",
+    "prepack taille mode",
+    "grossiste aubervilliers",
+    "b2b mode paris",
+  ],
+};
+
+export const pageMetadata = {
+  home: {
+    title: "Synchronisez PFS, MicroStore, Faire, Ankorstore & Shopify | SyncMode",
+    description: "Hub de synchronisation B2B pour la mode. Stocks temps réel, zéro survente, variantes & packs, prix par canal.",
+  },
+  shopifyFaire: {
+    title: "Intégration Shopify ↔ Faire | Synchronisation inventaire & commandes",
+    description: "Connectez Shopify et Faire pour synchroniser stocks, produits et commandes B2B. Solution officielle stable.",
+  },
+  shopifyAnkorstore: {
+    title: "Shopify ↔ Ankorstore Sales Channel | Synchronisation B2B",
+    description: "Intégration Shopify Ankorstore via Sales Channel. Publiez produits, synchronisez stocks et commandes.",
+  },
+  shopifyPfs: {
+    title: "Connecteur Shopify ↔ Paris Fashion Shops | PFS Sync",
+    description: "Synchronisez votre boutique Shopify avec PFS. Grossiste Aubervilliers, mode B2B, stocks temps réel.",
+  },
+  shopifyMicrostore: {
+    title: "Shopify ↔ MicroStore (MC) | Connecteur grossiste mode",
+    description: "Intégration Shopify MicroStore pour grossistes mode. Synchronisation stocks, variantes, commandes B2B.",
+  },
+  pfsMicrostore: {
+    title: "PFS ↔ MicroStore | Synchronisation grossistes Aubervilliers",
+    description: "Connectez Paris Fashion Shops et MicroStore. Solution pour grossistes mode Aubervilliers et Sentier.",
+  },
+  pricing: {
+    title: "Tarifs | SyncMode - Hub synchronisation B2B mode",
+    description: "Abonnement flexible par connecteur. Onboarding personnalisé, mapping grilles tailles et prepacks inclus.",
+  },
+  security: {
+    title: "Sécurité & RGPD | SyncMode - Conformité CNIL",
+    description: "Protection des données, conformité RGPD et CNIL. Solution indépendante non affiliée aux marques.",
+  },
+};

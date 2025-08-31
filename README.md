@@ -1,36 +1,148 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SyncMode - Hub de Synchronisation B2B pour la Mode
 
-## Getting Started
+Landing page façade pour capturer des leads qualifiés dans le secteur de la mode B2B en France.
 
-First, run the development server:
+## 🎯 Objectif
+
+Générer des leads qualifiés pour un service de synchronisation entre :
+- **Shopify**
+- **Faire** 
+- **Ankorstore**
+- **Paris Fashion Shops (PFS)**
+- **MicroStore (MC)**
+
+## 🚀 Démarrage rapide
 
 ```bash
+# Installation
+npm install
+
+# Développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build production
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrir [http://localhost:3000](http://localhost:3000)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📊 Lead Scoring Automatique
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Le système score automatiquement les leads :
+- **PFS + MC cochés** : +3 points
+- **>1 entrepôt** : +2 points  
+- **>1000 SKUs** : +2 points
+- **Besoins prepacks/MOQ** : +2 points
+- **ERP/WMS existant** : +1 point
+- **CSV/SFTP possible** : +1 point
 
-## Learn More
+**Score ≥5** = Redirection automatique vers Calendly
 
-To learn more about Next.js, take a look at the following resources:
+## 🛡️ Conformité RGPD/CNIL
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Bannière cookies conforme CNIL
+- Bouton "Refuser" aussi accessible qu'"Accepter"
+- Consent Mode v2 pour Google Ads/Analytics
+- Double opt-in email
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📈 SEO & Marketing
 
-## Deploy on Vercel
+### Pages d'atterrissage par paires
+- `/shopify-faire` - Intégration officielle
+- `/shopify-ankorstore` - Sales Channel  
+- `/shopify-pfs` - Paris Fashion Shops
+- `/shopify-microstore` - App grossistes
+- `/pfs-microstore` - Aubervilliers/Sentier
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Mots-clés ciblés
+- Synchronisation B2B mode
+- Shopify Faire intégration
+- Grossiste Aubervilliers
+- Survente stock mode
+- Prepack taille mode
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔧 Configuration
+
+### Google Analytics
+Remplacer `G-XXXXXXXXXX` dans `app/layout.tsx`
+
+### Calendly
+Mettre à jour le lien dans `config/seo.ts`
+
+### Domaine
+Suggestions :
+- synchro-mode.fr
+- mode-sync.fr
+- fashion-b2b.fr
+
+## 📝 Structure du projet
+
+```
+/
+├── app/                    # Pages Next.js
+│   ├── shopify-faire/     # Pages SEO par paires
+│   ├── shopify-ankorstore/
+│   └── ...
+├── components/            # Composants React
+│   ├── Hero.tsx          # Section principale
+│   ├── QualificationForm.tsx # Formulaire avec scoring
+│   └── CookieBanner.tsx  # RGPD/CNIL
+├── config/               # Configuration
+│   ├── connectors.ts    # État des connecteurs
+│   └── seo.ts          # Métadonnées SEO
+└── lib/                 # Utilitaires
+    └── lead-scoring.ts  # Logique de scoring
+```
+
+## 🎨 Stack technique
+
+- **Next.js 14** (App Router)
+- **TypeScript**
+- **TailwindCSS**
+- **React Hook Form** + Zod
+- **Consent Mode v2**
+
+## 📊 Suivi des conversions
+
+Le formulaire envoie automatiquement les events :
+- `form_submit` - Soumission formulaire
+- `high_value_lead` - Score ≥5
+- `calendly_redirect` - Redirection démo
+
+## ⚡ Optimisations
+
+- Images optimisées avec Next/Image
+- Lazy loading des composants
+- Minification CSS/JS en production
+- Cache CDN via Cloudflare
+
+## 🚦 Déploiement
+
+### Vercel (recommandé)
+```bash
+vercel --prod
+```
+
+### Cloudflare Pages
+```bash
+npm run build
+# Upload dossier .next/
+```
+
+## 📧 Emails de nurturing
+
+**J0** : Confirmation + questions de qualification
+**J2** : Relance si pas de RDV pris
+**J7** : Case study / témoignage client
+
+## 🔗 Ressources
+
+- [Shopify Faire App](https://apps.shopify.com/faire-sell-wholesale)
+- [Ankorstore Sales Channel](https://support.ankorstore.com)
+- [CNIL - Cookies](https://www.cnil.fr)
+- [Google Consent Mode v2](https://support.google.com/tagmanager/answer/13695607)
+
+---
+
+*Solution indépendante, non affiliée aux marques citées*
