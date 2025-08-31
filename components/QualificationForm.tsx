@@ -55,8 +55,26 @@ export function QualificationForm() {
     const score = calculateLeadScore(leadData);
     setLeadScore(score);
 
-    // Ici on enverrait les données à HubSpot/CRM
-    await new Promise((resolve) => setTimeout(resolve, 1500));
+    // Envoyer le lead à l'API
+    try {
+      const response = await fetch("/api/lead", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(leadData),
+      });
+      
+      if (!response.ok) {
+        console.error("Erreur envoi lead");
+      } else {
+        const result = await response.json();
+        console.log("Lead envoyé:", result.message);
+      }
+    } catch (error) {
+      console.error("Erreur:", error);
+    }
+    
+    // Petit délai pour l'UX
+    await new Promise((resolve) => setTimeout(resolve, 500));
     
     setIsSubmitting(false);
     setIsSubmitted(true);

@@ -78,31 +78,25 @@ export default function RootLayout({
           `}
         </Script>
 
-        {/* 
-          GOOGLE ANALYTICS 4 - CONFIGURATION REQUISE
-          
-          1. Va sur https://analytics.google.com
-          2. Clique sur "Admin" (roue dentée en bas à gauche)
-          3. Dans "Propriété", clique sur "Flux de données" > "Web"
-          4. Copie ton ID de mesure (format: G-ABC123XYZ9)
-          5. Remplace G-XXXXXXXXXX ci-dessous par ton ID
-          
-          IMPORTANT: Remplace G-XXXXXXXXXX dans les DEUX endroits ci-dessous
-        */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-XXXXXXXXXX', {
-              page_path: window.location.pathname,
-            });
-          `}
-        </Script>
+        {/* Google Analytics 4 - Configure NEXT_PUBLIC_GA_ID dans .env.local */}
+        {process.env.NEXT_PUBLIC_GA_ID && (
+          <>
+            <Script
+              src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GA_ID}`}
+              strategy="afterInteractive"
+            />
+            <Script id="google-analytics" strategy="afterInteractive">
+              {`
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+                  page_path: window.location.pathname,
+                });
+              `}
+            </Script>
+          </>
+        )}
 
         {/* Schema.org pour SEO */}
         <Script id="schema-org" type="application/ld+json">
