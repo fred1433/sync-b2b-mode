@@ -18,7 +18,7 @@ export function Hero() {
           <p className="mt-6 text-lg leading-8 text-gray-600">
             <strong>Synchronisez automatiquement vos stocks, prix et commandes</strong>
             <br />
-            entre PFS, MicroStore (MC), Faire, Ankorstore & Shopify.
+            entre Shopify, Faire, Ankorstore, Amazon, Zalando, PFS, MicroStore et plus...
             <br />
             <span className="text-base">Évitez la survente • Synchronisation temps réel • Centralisation des commandes</span>
           </p>
@@ -40,7 +40,7 @@ export function Hero() {
           </div>
         </div>
 
-        <div className="mt-16 flex justify-center gap-8 opacity-60 grayscale">
+        <div className="mt-16 flex flex-wrap justify-center gap-6 opacity-60 grayscale">
           <div className="flex items-center justify-center">
             <span className="text-xl font-bold text-gray-400">Shopify</span>
           </div>
@@ -51,10 +51,19 @@ export function Hero() {
             <span className="text-xl font-bold text-gray-400">Ankorstore</span>
           </div>
           <div className="flex items-center justify-center">
+            <span className="text-xl font-bold text-gray-400">Amazon</span>
+          </div>
+          <div className="flex items-center justify-center">
+            <span className="text-xl font-bold text-gray-400">Zalando</span>
+          </div>
+          <div className="flex items-center justify-center">
             <span className="text-xl font-bold text-gray-400">PFS</span>
           </div>
           <div className="flex items-center justify-center">
             <span className="text-xl font-bold text-gray-400">MicroStore</span>
+          </div>
+          <div className="flex items-center justify-center">
+            <span className="text-xl font-bold text-gray-400">+ 10 autres</span>
           </div>
         </div>
       </div>
