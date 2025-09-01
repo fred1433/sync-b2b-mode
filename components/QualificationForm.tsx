@@ -269,7 +269,7 @@ export function QualificationForm() {
                   {...register("hasERP")}
                   className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                 />
-                <span className="ml-2 text-sm text-gray-700">ERP/WMS existant</span>
+                <span className="ml-2 text-sm text-gray-700">J'utilise un logiciel de gestion des stocks</span>
               </label>
               <label className="flex items-center">
                 <input
@@ -277,7 +277,7 @@ export function QualificationForm() {
                   {...register("hasCSV")}
                   className="h-4 w-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                 />
-                <span className="ml-2 text-sm text-gray-700">Import/Export CSV possible</span>
+                <span className="ml-2 text-sm text-gray-700">Je peux exporter mes données en Excel/CSV</span>
               </label>
             </div>
 

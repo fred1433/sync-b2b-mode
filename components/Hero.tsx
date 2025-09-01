@@ -32,10 +32,10 @@ export function Hero() {
               <ArrowRight className="ml-2 inline h-4 w-4" />
             </Link>
             <Link
-              href="#waitlist"
+              href="/tarifs"
               className="text-base font-semibold leading-6 text-gray-900 hover:text-gray-700 transition-colors"
             >
-              Rejoindre la liste d'attente <span aria-hidden="true">→</span>
+              Voir les tarifs <span aria-hidden="true">→</span>
             </Link>
           </div>
         </div>
