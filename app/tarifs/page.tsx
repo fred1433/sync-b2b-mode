@@ -29,8 +29,8 @@ const plans = [
   },
   {
     name: "Enterprise",
-    price: "299€",
-    period: "/mois",
+    price: "Sur devis",
+    period: "",
     description: "Pour les très gros volumes",
     features: [
       "Tout du plan Tout Inclus +",
@@ -112,20 +112,13 @@ export default function PricingPage() {
           ))}
         </div>
 
-        <div className="mx-auto mt-16 max-w-2xl rounded-3xl bg-gray-50 p-8 sm:p-10">
-          <h3 className="text-lg font-semibold leading-8 text-gray-900">
-            Frais d'onboarding
-          </h3>
-          <p className="mt-4 text-sm leading-6 text-gray-600">
-            Frais unique de mise en place : <span className="font-semibold">99€ au total</span> (au lieu de 199€/connecteur) incluant :
+        <div className="mx-auto mt-16 max-w-2xl text-center">
+          <p className="text-base text-gray-600">
+            <span className="font-semibold">Essai gratuit 14 jours</span> • Sans engagement • Annulation à tout moment
           </p>
-          <ul className="mt-4 space-y-2 text-sm text-gray-600">
-            <li>• Configuration initiale et tests</li>
-            <li>• Mapping des produits et variantes</li>
-            <li>• Configuration des grilles de tailles</li>
-            <li>• Formation de votre équipe</li>
-            <li>• Support prioritaire pendant 30 jours</li>
-          </ul>
+          <p className="mt-2 text-sm text-gray-500">
+            Configuration et onboarding inclus, notre équipe vous accompagne gratuitement
+          </p>
         </div>
       </div>
     </div>
