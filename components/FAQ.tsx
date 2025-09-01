@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     question: "Combien de temps prend la mise en place ?",
-    answer: "L'onboarding dépend de la complexité de votre catalogue. En moyenne : 1-2 jours pour Shopify↔Faire (officiel), 3-5 jours pour les autres connecteurs avec mapping personnalisé.",
+    answer: "24h chrono après votre inscription ! Vous nous donnez vos accès le matin, tout est synchronisé le soir même. Notre équipe s'occupe de tout : configuration, mapping des produits, tests. Vous n'avez rien à faire.",
   },
   {
     question: "Quels sont vos tarifs ?",
