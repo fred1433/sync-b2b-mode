@@ -80,17 +80,25 @@ export function ConnectorTable() {
                   <td className="whitespace-nowrap px-6 py-4 text-center text-sm text-gray-500">
                     <StatusBadge status={connector.status} />
                   </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-center text-sm text-gray-500">
-                    <StatusIcon status={connector.features.products} />
+                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-500">
+                    <div className="flex justify-center">
+                      <StatusIcon status={connector.features.products} />
+                    </div>
                   </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-center text-sm text-gray-500">
-                    <StatusIcon status={connector.features.inventory} />
+                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-500">
+                    <div className="flex justify-center">
+                      <StatusIcon status={connector.features.inventory} />
+                    </div>
                   </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-center text-sm text-gray-500">
-                    <StatusIcon status={connector.features.orders} />
+                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-500">
+                    <div className="flex justify-center">
+                      <StatusIcon status={connector.features.orders} />
+                    </div>
                   </td>
-                  <td className="whitespace-nowrap px-6 py-4 text-center text-sm text-gray-500">
-                    <StatusIcon status={connector.features.pricing} />
+                  <td className="whitespace-nowrap px-6 py-4 text-sm text-gray-500">
+                    <div className="flex justify-center">
+                      <StatusIcon status={connector.features.pricing} />
+                    </div>
                   </td>
                 </tr>
               ))}
