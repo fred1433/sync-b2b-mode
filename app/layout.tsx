@@ -128,7 +128,7 @@ export default function RootLayout({
                 <span className="text-xl font-bold text-gray-900">Sync Mode</span>
               </div>
               <div className="hidden md:flex items-center space-x-8">
-                <a href="#demo" className="text-sm font-medium text-gray-700 hover:text-gray-900">
+                <a href="/#demo" className="text-sm font-medium text-gray-700 hover:text-gray-900">
                   Démonstration
                 </a>
                 <a href="/tarifs" className="text-sm font-medium text-gray-700 hover:text-gray-900">
@@ -138,7 +138,7 @@ export default function RootLayout({
                   Sécurité
                 </a>
                 <a
-                  href="#demo"
+                  href="/#demo"
                   className="rounded-md bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-500"
                 >
                   Démo gratuite

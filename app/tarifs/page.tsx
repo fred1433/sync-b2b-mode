@@ -99,7 +99,7 @@ export default function PricingPage() {
                 ))}
               </ul>
               <Link
-                href="#demo"
+                href="/#demo"
                 className={`mt-8 block w-full rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 ${
                   plan.popular
                     ? "bg-blue-600 text-white hover:bg-blue-500"
