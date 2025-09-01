@@ -106,7 +106,7 @@ export default function PricingPage() {
                     : "bg-gray-50 text-gray-900 hover:bg-gray-100"
                 } focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600`}
               >
-                {plan.name === "Enterprise" ? "Contactez-nous" : "Commencer l'essai gratuit"}
+                Demander une démo
               </Link>
             </div>
           ))}

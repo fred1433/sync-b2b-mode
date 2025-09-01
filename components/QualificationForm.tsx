@@ -79,6 +79,11 @@ export function QualificationForm() {
     setIsSubmitting(false);
     setIsSubmitted(true);
 
+    // Scroll vers le haut pour voir le message de remerciement
+    setTimeout(() => {
+      document.getElementById("demo")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }, 100);
+
     // Si score >= 5, rediriger vers Google Calendar
     if (score.score >= 5) {
       setTimeout(() => {
