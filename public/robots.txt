@@ -1,0 +1,21 @@
+# Robots.txt pour sync-mode.fr
+
+# Autoriser tous les robots
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://sync-mode.fr/sitemap.xml
+
+# Crawl-delay pour être respectueux
+Crawl-delay: 1
+
+# Bots spécifiques
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
