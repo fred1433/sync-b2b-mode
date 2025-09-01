@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     question: "Quels sont vos tarifs ?",
-    answer: "Abonnement mensuel par connecteur actif + frais d'onboarding unique. Le tarif dépend du volume de SKUs et de commandes. Demandez une démo pour un devis personnalisé.",
+    answer: "69€/mois tout inclus pour toutes les plateformes ! Pas de frais cachés, pas de setup fee. Essai gratuit 14 jours pour tester. Plan Enterprise sur devis pour les très gros volumes (10,000+ SKUs).",
   },
 ];
 
