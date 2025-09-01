@@ -125,7 +125,9 @@ export default function RootLayout({
           <div className="mx-auto max-w-7xl px-6 lg:px-8">
             <div className="flex h-16 items-center justify-between">
               <div className="flex items-center">
-                <span className="text-xl font-bold text-gray-900">Sync Mode</span>
+                <a href="/" className="text-xl font-bold text-gray-900 hover:text-gray-700 transition-colors">
+                  Sync Mode
+                </a>
               </div>
               <div className="hidden md:flex items-center space-x-8">
                 <a href="/#demo" className="text-sm font-medium text-gray-700 hover:text-gray-900">
@@ -154,7 +156,9 @@ export default function RootLayout({
           <div className="mx-auto max-w-7xl px-6 py-12 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
               <div>
-                <h3 className="text-lg font-semibold mb-4">Sync Mode</h3>
+                <a href="/" className="text-lg font-semibold mb-4 hover:text-gray-300 transition-colors inline-block">
+                  Sync Mode
+                </a>
                 <p className="text-sm text-gray-400">
                   Hub de synchronisation B2B pour la mode française
                 </p>
