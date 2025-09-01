@@ -149,15 +149,15 @@ export function QualificationForm() {
         </div>
 
         <form onSubmit={handleSubmit(onSubmit)} className="mt-12 space-y-8">
-          <div className="rounded-lg bg-white p-8 shadow-lg">
+          <div className="rounded-2xl bg-white p-8 shadow-xl border border-gray-100">
             {/* Plateformes */}
             <div>
-              <label className="block text-sm font-medium text-gray-700">
-                Quelles plateformes utilisez-vous ? *
+              <label className="block text-base font-semibold text-gray-900 mb-4">
+                🏪 Vos plateformes de vente
               </label>
-              <div className="mt-2 space-y-2">
+              <div className="grid grid-cols-2 gap-3">
                 {["shopify", "faire", "ankorstore", "pfs", "microstore", "efashion", "amazon", "zalando"].map((platform) => (
-                  <label key={platform} className="flex items-center">
+                  <label key={platform} className="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors">
                     <input
                       type="checkbox"
                       value={platform}
@@ -178,11 +178,11 @@ export function QualificationForm() {
             </div>
 
             {/* Objectifs */}
-            <div className="mt-6">
-              <label className="block text-sm font-medium text-gray-700">
-                Vos objectifs principaux *
+            <div className="mt-8 pt-8 border-t border-gray-200">
+              <label className="block text-base font-semibold text-gray-900 mb-4">
+                🎯 Vos objectifs
               </label>
-              <div className="mt-2 space-y-2">
+              <div className="grid grid-cols-2 gap-3">
                 {[
                   { value: "stocks", label: "Synchroniser les stocks" },
                   { value: "survente", label: "Éviter la survente" },
@@ -191,7 +191,7 @@ export function QualificationForm() {
                   { value: "prepacks", label: "Gérer les prepacks/MOQ" },
                   { value: "multi-entrepot", label: "Multi-entrepôts" },
                 ].map((objective) => (
-                  <label key={objective.value} className="flex items-center">
+                  <label key={objective.value} className="flex items-center p-3 border border-gray-200 rounded-lg hover:bg-gray-50 cursor-pointer transition-colors">
                     <input
                       type="checkbox"
                       value={objective.value}
