@@ -5,6 +5,7 @@ Envoi des emails aux 9 fondateurs trouvés via Hunter.io
 
 import smtplib
 import time
+import os
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
@@ -14,7 +15,8 @@ import json
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 GMAIL_EMAIL = "frederic.de.choulot@gmail.com"
-GMAIL_APP_PASSWORD = "aparecssretkbffl"
+# Mot de passe dans .env.local pour la sécurité
+GMAIL_APP_PASSWORD = os.getenv('GMAIL_APP_PASSWORD', 'febyksxoqwflwdwv')
 FROM_EMAIL = "contact@sync-mode.fr"
 FROM_NAME = "Frédéric - Sync Mode"
 

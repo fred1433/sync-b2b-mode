@@ -9,7 +9,7 @@ import time
 import csv
 
 # Configuration
-API_KEY = "c0fecb577d1d5b8af9d5f376a5ce51813e9ed88e"
+# API Key removed for security - use .env.local
 BASE_URL = "https://api.hunter.io/v2"
 
 # Nos 27 prospects prioritaires

@@ -7,7 +7,7 @@ from email.mime.multipart import MIMEMultipart
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 GMAIL_EMAIL = "frederic.de.choulot@gmail.com"
-GMAIL_APP_PASSWORD = "aparecssretkbffl"  # Sans espaces
+# Password removed for security - use .env.local  # Sans espaces
 
 TO_EMAIL = "frederic.de.choulot@gmail.com"
 FROM_EMAIL = "contact@sync-mode.fr"
