@@ -13,6 +13,10 @@ export const metadata: Metadata = {
   keywords: siteConfig.keywords,
   authors: [{ name: "SyncMode" }],
   creator: "SyncMode",
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
   openGraph: {
     type: "website",
     locale: "fr_FR",
