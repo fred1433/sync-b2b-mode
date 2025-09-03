@@ -179,7 +179,7 @@ export default function RootLayout({
                 <ul className="space-y-2 text-sm text-gray-400">
                   <li><a href="/tarifs" className="hover:text-white">Tarifs</a></li>
                   <li><a href="/securite-rgpd" className="hover:text-white">Sécurité & RGPD</a></li>
-                  <li><a href="#faq" className="hover:text-white">FAQ</a></li>
+                  <li><a href="/#faq" className="hover:text-white">FAQ</a></li>
                 </ul>
               </div>
               

@@ -1,0 +1,177 @@
+[
+  {
+    "timestamp": "2025-09-01T10:37:46.281062",
+    "company": "Cherry Paris",
+    "contact": "Pascal He",
+    "email": "pascal.he@pinkiss-paris.com",
+    "subject": "Cherry Paris - Synchronisation automatique Faire-Ankorstore",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:38:19.322387",
+    "company": "La Petite Étoile",
+    "contact": "Min Xu",
+    "email": "min.xu@lapetiteetoile.com",
+    "subject": "La Petite Étoile - Synchronisation automatique Faire-Ankorstore-Orderchamp",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:38:52.217481",
+    "company": "Louise Misha",
+    "contact": "Marie Pidancet",
+    "email": "marie.pidancet@louisemisha.com",
+    "subject": "Louise Misha - Synchronisation automatique Faire-Ankorstore",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:39:25.324201",
+    "company": "Molly Bracken",
+    "contact": "Catherine Sidonio",
+    "email": "catherine@mollybracken.com",
+    "subject": "Molly Bracken - Synchronisation automatique Faire-LAShowroom",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:52:34.625842",
+    "company": "Andy & Lucy",
+    "contact": "Dian Huang",
+    "email": "contact@andylucy.com",
+    "subject": "Andy & Lucy - Synchronisation automatique de vos plateformes",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:52:57.830654",
+    "company": "Bonheur du Jour Paris",
+    "contact": "Catherine Dufossez",
+    "email": "catherine@bdjparis.com",
+    "subject": "Bonheur du Jour Paris - Synchronisation automatique de vos plateformes",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:53:21.068303",
+    "company": "Zayne Paris",
+    "contact": "",
+    "email": "contact@zayneparis.com",
+    "subject": "Zayne Paris - Synchronisation automatique de vos plateformes",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:53:44.015917",
+    "company": "Calie Paris",
+    "contact": "",
+    "email": "hello@calieparis.com",
+    "subject": "Calie Paris - Synchronisation automatique de vos plateformes",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:54:06.936970",
+    "company": "Maison René Derhy",
+    "contact": "René Derhy",
+    "email": "info@derhy.com",
+    "subject": "Maison René Derhy - Synchronisation automatique de vos plateformes",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:54:29.871251",
+    "company": "Leo & Ugo",
+    "contact": "Léo Amsallem",
+    "email": "contact@leoetugo.fr",
+    "subject": "Leo & Ugo - Synchronisation automatique de vos plateformes",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:58:53.700072",
+    "company": "BILLYBELT",
+    "contact": "Jean-Baptiste Gaveau",
+    "email": "contact@billybelt.com",
+    "subject": "BILLYBELT - Synchronisation automatique",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:59:06.877789",
+    "company": "Hindbag",
+    "contact": "Pierre Monnier",
+    "email": "hello@hindbag.fr",
+    "subject": "Hindbag - Synchronisation automatique",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:59:20.004115",
+    "company": "Grace & Mila",
+    "contact": "Patrick Chou",
+    "email": "eshop@graceandmila.com",
+    "subject": "Grace & Mila - Synchronisation automatique",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T10:59:33.084014",
+    "company": "Agapée Jewelry",
+    "contact": "",
+    "email": "hello@agapee.co",
+    "subject": "Agapée Jewelry - Synchronisation automatique",
+    "status": "sent"
+  },
+  {
+    "timestamp": "2025-09-01T11:34:41.546233",
+    "company": "Sessùn",
+    "contact": "Emma François",
+    "email": "emma.francois@sessun.com",
+    "subject": "Sessùn - Simplifier votre synchro B2B ?",
+    "status": "sent",
+    "type": "founder_direct"
+  },
+  {
+    "timestamp": "2025-09-01T11:34:59.886985",
+    "company": "Balzac Paris",
+    "contact": "Chrysoline de Gastines",
+    "email": "chrysoline@balzac-paris.fr",
+    "subject": "Balzac Paris - Simplifier votre synchro B2B ?",
+    "status": "sent",
+    "type": "founder_direct"
+  },
+  {
+    "timestamp": "2025-09-01T11:35:18.048888",
+    "company": "Faguo",
+    "contact": "Frédéric Mugnier",
+    "email": "frederic@faguo.fr",
+    "subject": "Faguo - Simplifier votre synchro B2B ?",
+    "status": "sent",
+    "type": "founder_direct"
+  },
+  {
+    "timestamp": "2025-09-01T11:35:36.731814",
+    "company": "Soi Paris",
+    "contact": "Aurélie Boutboul",
+    "email": "aurelie@soi-paris.com",
+    "subject": "Soi Paris - Simplifier votre synchro B2B ?",
+    "status": "sent",
+    "type": "founder_direct"
+  },
+  {
+    "timestamp": "2025-09-01T11:35:55.010090",
+    "company": "Le Slip Français",
+    "contact": "Guillaume Gibault",
+    "email": "guillaume@leslipfrancais.fr",
+    "subject": "Le Slip Français - Simplifier votre synchro B2B ?",
+    "status": "sent",
+    "type": "founder_direct"
+  },
+  {
+    "timestamp": "2025-09-01T11:36:13.163630",
+    "company": "Sessùn",
+    "contact": "Marie Berton",
+    "email": "marie.berton@sessun.com",
+    "subject": "Sessùn - Simplifier votre synchro B2B ?",
+    "status": "sent",
+    "type": "founder_direct"
+  },
+  {
+    "timestamp": "2025-09-01T11:36:31.725509",
+    "company": "Heimstone",
+    "contact": "Alix Petit",
+    "email": "alix@heimstone.com",
+    "subject": "Heimstone - Simplifier votre synchro B2B ?",
+    "status": "sent",
+    "type": "founder_direct"
+  }
+]
