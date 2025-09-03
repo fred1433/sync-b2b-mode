@@ -16,7 +16,10 @@ SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 GMAIL_EMAIL = "frederic.de.choulot@gmail.com"
 # Mot de passe dans .env.local pour la sécurité
-GMAIL_APP_PASSWORD = os.getenv('GMAIL_APP_PASSWORD', 'febyksxoqwflwdwv')
+GMAIL_APP_PASSWORD = os.getenv('GMAIL_APP_PASSWORD')  # Doit être dans .env.local
+if not GMAIL_APP_PASSWORD:
+    print("❌ ERREUR: GMAIL_APP_PASSWORD manquant dans .env.local")
+    exit(1)
 FROM_EMAIL = "contact@sync-mode.fr"
 FROM_NAME = "Frédéric - Sync Mode"
 

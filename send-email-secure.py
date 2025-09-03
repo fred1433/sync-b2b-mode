@@ -11,7 +11,7 @@ from email.mime.multipart import MIMEMultipart
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
 GMAIL_EMAIL = "frederic.de.choulot@gmail.com"
-GMAIL_APP_PASSWORD = "febyksxoqwflwdwv"  # Nouveau mot de passe
+GMAIL_APP_PASSWORD = "CHANGE_ME_IN_ENV_LOCAL"  # NE JAMAIS mettre le vrai mot de passe ici!
 FROM_EMAIL = "contact@sync-mode.fr"
 FROM_NAME = "Frédéric - Sync Mode"
 

@@ -15,7 +15,7 @@ read -p "Colle le nouveau mot de passe ici: " NEW_PASSWORD
 echo "Creating .env.local..."
 cat > .env.local << EOF
 # Configuration Resend (emails des leads)
-RESEND_API_KEY=re_N2ht5JLe_Mqnu7cmUGLaiNwwN33mDV5p8
+RESEND_API_KEY=YOUR_RESEND_API_KEY_HERE
 NOTIFICATION_EMAIL=frederic.de.choulot@gmail.com
 
 # Google Analytics
